@@ -1,0 +1,47 @@
+
+#light {
+    background-color: white;  
+}
+#light .producto button{
+    background-color: black;
+    color:rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius:5px;
+} 
+  
+#dark {
+    background-color: rgb(2, 2, 2);
+    color:rgb(99, 67, 35);
+
+}
+
+#dark .producto button{
+    background-color:  rgb(74, 151, 46);
+    font-weight: bolder;
+}
+
+#dark .producto h5 span{
+    background-color:rgb(31, 19, 19);
+    color: rgb(255, 255, 255);
+}
+#dark header p span {
+    background-color: rgb(84, 201, 42);
+    color: rgba(21, 113, 57, 0.657);
+    padding: 3px 5px;
+    border-radius: 5px;
+}
+
+#dark .footer{
+    background-color:rgb(16, 18, 22);
+
+}
+.switch {
+    display:flex;
+    width: 96%;
+    justify-content:right;
+    margin-right: 40px;
+    margin-right: 50px;
+    margin-top:-59px;
+    margin-bottom:10px;
+    align-items:center;
+}
